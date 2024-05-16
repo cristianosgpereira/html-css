@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html5.png" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        /*
+        #  =  id
+        .  =  class
+        :  =  pseudo-class
+        :: =  pseud-element
+        >  =  clildren filho
+        
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none; /* textx decoretion tira o subliado debaixo da letra*/
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline; /* quando passa o mouse embaixo aparece sunbliado*/
+        }
+
+        a:active { /* o activer server para quando clicar muda a cor*/
+            color: yellow;
+        }
+
+        /* aqui o link entra antes
+        a::before {
+            content:' [link] '';
+        } */
+
+        a::after { /* o :: pseudo elemento e after significa depois*/
+            content: ' [link]'; /* contente é comnetario*/
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Links personalizados</h1>
+    <ul>
+        <li><a href="https://cristianosgpereira.github.io/redessociais/" target="_blank">Repositorio GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UC5QmwEbNk7sktP3IxnZMzyw" target="_blank">Canal do YouTube</a></li>
+        <li><a href="https://www.instagram.com/cristianopsouza81/?utm_source=qr&r=nametag" target="_blank">Pagina instagram</a></li>
+    </ul>
+</body>
+</html>
