@@ -13,10 +13,12 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
             border: 1px solid black;
+            text-align: center;
         }
 
         caption {
@@ -30,6 +32,17 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgrey;
         }
 
         td.num {
@@ -58,38 +71,160 @@
             <tr>
                 <th scope="col">Estado</th>
                 <th scope="col" style="width: 100px;">Populaçao</th>
+                <th scope="col">Sigla</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Sã0 Paulo</td>
+                <td>São Paulo</td>
                 <td class="num">45 919 049</td>
+                <td>SP</td>
             </tr>
 
             <tr>
-                <td>Rio de janeiro</td>
+                <td>Rio de Janeiro</td>
                 <td class="num">17 264 049</td>
+                <td>RJ</td>
             </tr>
             <tr>
                 <td>Parana</td>
                 <td class="num">1 264 049</td>
-                
+                <td>PR</td>                
             </tr>
             <tr>
                 <td>Ceara</td>
                 <td class="num">5 264 049</td>
+                <td>CE</td>
             </tr>
             <tr>
                 <td>Rio Grande do Sul</td>
                 <td class="num">7 264 049</td>
+                <td>RS</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="num">7 264 039</td>
+                <td>RN</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">74 264 049</td>
+                <td>TO</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="num">7 164 049</td>
+                <td>AC</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num">17 264 049</td>
+                <td>PB</td>
+            </tr>
+            <tr>
+                <td>Amapa</td>
+                <td class="num">17 264 049</td>
+                <td>AP</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">17 264 049</td>
+                <td>AM</td>
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="num">17 264 049</td>
+                <td>RR</td>
+            </tr>
+            <tr>
+                <td>Rondonia</td>
+                <td class="num">17 264 049</td>
+                <td>RO</td>
+            </tr>
+            <tr>
+                <td>Amapa</td>
+                <td class="num">17 264 049</td>
+                <td>AP</td>
+            </tr>
+            <tr>
+                <td>Para</td>
+                <td class="num">17 264 049</td>
+                <td>PA</td>
+            </tr>
+            <tr>
+                <td>Piaui</td>
+                <td class="num">17 264 049</td>
+                <td>PI</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">17 264 049</td>
+                <td>BA</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">17 264 049</td>
+                <td>MG</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td class="num">17 264 049</td>
+                <td>GO</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="num">17 264 049</td>
+                <td>MT</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">17 264 049</td>
+                <td>SC</td>
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="num">17 264 049</td>
+                <td>MS</td>
+            </tr>
+            <tr>
+                <td>Maranhao</td>
+                <td class="num">17 264 049</td>
+                <td>MA</td>
+            </tr>
+            <tr>
+                <td style="color:red;">Distrito Federal</td>
+                <td class="num">17 264 049</td>
+                <td>DF</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">17 264 049</td>
+                <td>PE</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="num">17 264 049</td>
+                <td>AL</td>
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="num">17 264 049</td>
+                <td>SE</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">17 264 049</td>
+                <td>ES</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th scope="row">Total de abitantes</th>
                 <td class="num"><strong>210 234 000</strong></td>
+                <td></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Assumenda perferendis, animi voluptatum eum, voluptates unde perspiciatis excepturi sed ullam quasi doloribus non. Iusto neque eveniet,<br> enim cum magni eos culpa?Lorem ipsum, dolor sit amet consectetur pisicing elit. Eaque odio similique nobis, voluptatem dolores <br> repellat tenetur quos. Obcaecati deleniti error, minima facere vel quam itaque deserunt ducimus unde vero.lorem</p>
 </body>
 </html>
