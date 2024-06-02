@@ -19,6 +19,14 @@
             border: 1px solid black;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 1px;
+            background-color: lightgrey;
+
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
@@ -30,10 +38,12 @@
     </style>
 </head>
 <body>
-    <h1>Uso de Tbelas grandes</h1>
+    <h1>Uso de Tabelas grandes</h1>
     <!--
         Anatomia para tabelas grandes
+        
         TABLE
+            capition
             THEAD   
                 TH, TD, TH
             TBODY
@@ -43,10 +53,12 @@
     -->
 
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populaçao</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">Populaçao</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
@@ -61,6 +73,7 @@
             <tr>
                 <td>Parana</td>
                 <td class="num">1 264 049</td>
+                
             </tr>
             <tr>
                 <td>Ceara</td>
@@ -73,7 +86,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de abitantes</th>
+                <th scope="row">Total de abitantes</th>
                 <td class="num"><strong>210 234 000</strong></td>
             </tr>
         </tfoot>
