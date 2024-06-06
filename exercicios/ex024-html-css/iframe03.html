@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html5.png" type="image/x-icon">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 98vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta quasi voluptas reprehenderit, libero vero delectus a perferendis commodi tenetur deserunt. Dolor deleniti laudantium illo accusamus officiis asperiores, iure necessitatibus quod!</p>
+    <ul>
+        <li><a href="paginas-extras/pag01.html" target="frame">Primeira Pagina</a></li>
+        <li><a href="paginas-extras/pag02.html" target="frame">Segunda Pagina</a></li>
+        <li><a href="paginas-extras/pag03.html" target="frame">Terceira Pagina</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam unde nesciunt commodi inventore eum atque quae placeat. Dolorem eveniet maxime, nisi minus hic, quasi excepturi asperiores, laborum praesentium aliquid tempore.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, modi! Deleniti animi ipsum sit excepturi sunt, minima illum, commodi accusantium, ab reiciendis dolorem iusto laborum eveniet voluptate quasi alias fugiat.</p>
+
+    <!--no srcdoc pode colocar codigo em HTML5-->
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opicoes acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet est facilis exercitationem ipsum beatae, unde illo aperiam odit nostrum quis atque veniam ratione molestias necessitatibus doloribus et. Repudiandae, veritatis doloremque.</p><img src='html5.png'>">
+        <p>Infelizmente seu navegador nao é compativel com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, assumenda. Eum ab quisquam doloremque maiores delectus tempora, soluta temporibus error facilis, quaerat voluptatibus magni reiciendis, magnam et vel modi repudiandae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, architecto sint, provident error asperiores fugiat consectetur veniam ipsam tempore accusamus, optio itaque blanditiis deleniti sed tenetur atque praesentium repudiandae molestiae!</p>
+    
+</body>
+</html>
