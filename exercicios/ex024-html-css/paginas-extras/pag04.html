@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="..paginas-extras/html5" type="image/x-icon">
+    <link rel="shortcut icon" href="../html5.png" type="image/x-icon">
     <title>Formulario</title>
+    <style>
+        body {
+            background-color: azure;
+            font-family: 'Courier New', Courier, monospace;
+            font: 1em sans-serif;
+            color:blue;
+        }
+    </style>
 </head>
 <body>
+    <h1>Cadastre-se aqui</h1>
+    <form action="cadastro.php" method="get">
+        Nome:
+        <input type="text" name="nome" id="nome">
+        <input type="submit" value="Cadastrar">
     
 </body>
 </html>
