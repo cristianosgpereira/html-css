@@ -6,9 +6,10 @@
     <link rel="shortcut icon" href="../html5.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/media-query.css">
     <title>Menu Responsivo Media Query</title>
 </head>
-<body>
+<body onresize="mudouTamanho">
     <header>
         <h1>Meu Site Resposnivo</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
@@ -33,11 +34,19 @@
         </article>
     </main>
     <script>
-        function clickMenu() {
-            if (itens.style.display == "block") {
-                itens.style.display = "none"
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style,display = 'block'
             } else {
-                itens.style.display = "block"
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
             }
 
         }

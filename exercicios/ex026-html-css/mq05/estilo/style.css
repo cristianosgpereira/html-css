@@ -58,12 +58,12 @@ menu > ul > li > a:hover {
 } 
 
 main {
-    width: 90VW;
+    width: 90vw;
     background-color: white;
     margin: auto;
-    margin-top: 10PX;
-    padding: 10PX;
-    border-radius: 10PX;
+    margin-top: 10pX;
+    padding: 10pX;
+    border-radius: 10pX;
 }
 
 article > h2 {
