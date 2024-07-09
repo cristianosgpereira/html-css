@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilo/media-query.css">
     <title>Menu Responsivo Media Query</title>
 </head>
-<body onresize="mudouTamanho">
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site Resposnivo</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
@@ -36,7 +36,7 @@
     <script>
         function mudouTamanho() {
             if (window.innerWidth >= 768) {
-                itens.style,display = 'block'
+                itens.style.display = 'block'
             } else {
                 itens.style.display = 'none'
             }

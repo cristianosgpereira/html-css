@@ -61,9 +61,9 @@ main {
     width: 90vw;
     background-color: white;
     margin: auto;
-    margin-top: 10pX;
-    padding: 10pX;
-    border-radius: 10pX;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 article > h2 {
