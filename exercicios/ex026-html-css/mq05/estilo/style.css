@@ -17,7 +17,7 @@ header {
 }
 
 header > h1 {
-    padding: 10PX;
+    padding: 10;
     text-align: center;
 }
 
@@ -58,7 +58,7 @@ menu > ul > li > a:hover {
 } 
 
 main {
-    width: 90vw;
+    width: 50vw;
     background-color: white;
     margin: auto;
     margin-top: 10px;
