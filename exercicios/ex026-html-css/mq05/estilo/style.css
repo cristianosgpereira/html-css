@@ -17,22 +17,10 @@ header {
 }
 
 header > h1 {
-    padding: 10;
+    padding: 10px;
     text-align: center;
 }
 
-i#burguer {
-    background-color: rgb(48, 48, 48);
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-i#burguer:hover {
-    background-color: white;
-    color: black;
-}
 
 menu {
     display: none;
@@ -52,6 +40,26 @@ menu > ul > li > a {
     border-top: 2px solid gray;
 
 }
+
+
+
+i#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
 
 menu > ul > li > a:hover {
     background-color: gray;
