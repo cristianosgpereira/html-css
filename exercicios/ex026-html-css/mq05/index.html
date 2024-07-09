@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Menu Responsivo Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site Resposnivo</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Media query Responsivo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto cumque vel saepe accusamus eveniet illo nam perspiciatis sint exercitationem unde, pariatur quasi accusantium, excepturi consequatur magni mollitia quam, voluptas assumenda. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae magnam, sequi dicta ab et dolores vel distinctio id error mollitia tempore, ea voluptatibus soluta harum voluptates obcaecati natus voluptatem aliquid.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus culpa sequi nesciunt, architecto dolorem dolorum ad magni deleniti autem nostrum in dignissimos necessitatibus cupiditate doloribus voluptas. Sit beatae debitis fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dolorem inventore, eos incidunt, beatae dignissimos neque a aperiam tenetur aspernatur amet nostrum alias voluptates laudantium hic, animi quisquam eligendi quas!</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi repudiandae, libero aliquid quod soluta voluptatem exercitationem quasi ut quidem pariatur vel corrupti numquam iste itaque possimus accusamus? Id, unde officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, id, necessitatibus fuga doloremque saepe error esse incidunt dolorum officia itaque perferendis sapiente quia illum laudantium a similique distinctio quam deleniti!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == "block") {
+                itens.style.display = "none"
+            } else {
+                itens.style.display = "block"
+            }
+
+        }
+
+    </script>
+    
+</body>
+</html>
