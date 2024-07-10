@@ -26,9 +26,6 @@ menu {
     display: none;
 }
 
-menu > ul {
-    list-style-type: none;
-}
 
 menu > ul > li > a {
     display: block;
@@ -76,6 +73,7 @@ main {
 
 article > h2 {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 article > p {
