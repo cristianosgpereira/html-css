@@ -26,12 +26,13 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black; (pontilhado) */  
     flex: 0 0 200px; 
+    text-shadow: 2px 2px opx rgba(0, 0, 0, 0);
 }
 
 header > nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black; pontilhado */
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
