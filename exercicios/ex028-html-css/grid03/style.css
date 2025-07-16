@@ -1,0 +1,20 @@
+@charset "UTC-8";
+
+div.container {
+    border: 3px solid blue;
+    display: grid;
+    grid-template-rows:repeat(3, 80px);
+    grid-template-columns:repeat(3, 120px);
+    grid-auto-flow: row;
+    grid-auto-rows: 80px;
+    grid-auto-columns: 120px;
+    gap: 10px;
+    place-items: normal normal;
+    place-content: normal normal;
+
+}
+
+div.item {
+    border: 3px solid red;
+    padding: 5px;
+}
