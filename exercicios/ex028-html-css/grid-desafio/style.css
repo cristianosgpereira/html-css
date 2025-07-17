@@ -1,9 +1,49 @@
-div.container {
-    div.container {
-    border: 3px solid black; /* Borda preta de 3px */
-    display: grid; /* Define o container como grid */
-    grid-template-rows: repeat(3, 100px); /* Três linhas de 100px cada */
-    grid-template-columns: repeat(4, 1fr); /* Quatro colunas de tamanho igual */
-    gap: 5px; /* Espaçamento de 5px entre os itens */
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
 }
+
+.container {
+    width: 100vw; /* Define a largura do container */
+    height: 100vh; /* Define a altura do container para ocupar toda a altura da viewport */
+    display: grid; 
+    grid-template-rows: 80px 40px 1fr 40px; 
+    grid-template-columns: 1fr 150px;
+    gap: 5px;
+}
+
+.caixa {
+    background-color: lightgrey;
+    border: 1px solid black; 
+    padding: 10px;
+    text-align: center;
+}
+
+#topo {
+    grid-area: 1 / 1 / 2 / 3; 
+
+}
+
+#menu {
+    grid-area: 2 / 1 / 3 / 3; 
+    
+    
+}
+
+#principal {
+
+    grid-area: 3 / 1 / 4 / 2; 
+}
+
+#secondario {
+    grid-area: 3 / 2 / 4 / 3; 
+    
+}
+
+#rodape {
+    grid-area: 4 / 1 / 5 / 3;
+    
 }
