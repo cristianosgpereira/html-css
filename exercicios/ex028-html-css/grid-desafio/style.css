@@ -1,0 +1,9 @@
+div.container {
+    div.container {
+    border: 3px solid black; /* Borda preta de 3px */
+    display: grid; /* Define o container como grid */
+    grid-template-rows: repeat(3, 100px); /* Três linhas de 100px cada */
+    grid-template-columns: repeat(4, 1fr); /* Quatro colunas de tamanho igual */
+    gap: 5px; /* Espaçamento de 5px entre os itens */
+}
+}
