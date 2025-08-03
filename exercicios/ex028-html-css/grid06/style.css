@@ -10,7 +10,7 @@ div.container {
 
 /* Estilo para as caixas dentro do grid simplificado*/
 
-div.caixa1 {
+div.caixa1 { 
     text-align: center;
     background-color: red;
     grid-area: 1 / 1 / span 1 / span 4; /* Define a área ocupada pela caixa */
